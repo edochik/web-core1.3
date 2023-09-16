@@ -15,8 +15,6 @@
 	color: inherit;
 }
 
-.contacts__img {}
-
 @media(min-width: 768px) {
 	.contacts {
 		position: relative;
@@ -35,11 +33,5 @@
 		border-radius: 1px;
 		background: #EAEAEA;
 		transform: translateY(-50%);
-	}
-}
-
-@media(min-width: 1120px) {
-	.contacts {
-		display: none;
 	}
 }

@@ -2,7 +2,6 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 	display: flex;
-	/* justify-content: space-between;*/
 	align-items: center;
 }
 
@@ -22,14 +21,6 @@
 
 @media(min-width: 1120px) {
 	.header {
-		position: relative;
-		padding: 0;
-		height: 0;
-	}
-
-	.burger-menu,
-	.logo,
-	.contacts {
 		display: none;
 	}
 }

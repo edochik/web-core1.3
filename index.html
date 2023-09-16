@@ -36,7 +36,7 @@
 			</ul>
 			<ul class="status">
 				<li class="status__item">
-					Оставить заявку
+					<p class="status__text">Оставить заявку</p>
 				</li>
 				<li class="status__item icon-center">
 					<a class="status__link" href="#!">
@@ -44,7 +44,7 @@
 					</a>
 				</li>
 				<li class="status__item">
-					Оставить заявку
+					<p class="status__text">Статус ремонта</p>
 				</li>
 				<li class="status__item icon-center">
 					<a class="status__link" href="#!">
@@ -56,47 +56,69 @@
 	</header>
 	<main>
 		<section class="services">
-			<h1 class="title container title_decor services__title">Услуги и сервисы</h1>
-			<div class="services__menu-scroll container-left">
-				<ul class="services__list ">
-					<li class="services__item">
-						<button class="services__button services__button_checked">Ремонтируемые устройства</button>
-					</li>
-					<li class="services__item">
-						<button class="services__button">Дополнительные услуги</button>
-					</li>
-					<li class="services__item">
-						<button class="services__button">Цены на услуги</button>
-					</li>
-					<li class="services__item">
-						<button class="services__button">Адреса сервисных центров</button>
-					</li>
-					<li class="services__item">
-						<button class="services__button">Специальные цены</button>
-					</li>
-					<li class="services__item">
-						<button class="services__button">Отзывы</button>
-					</li>
-				</ul>
-			</div>
-			<div class="services__wrapper">
-				<div class="services__info container-left">
-					<div class="services__column">
-						<p class="services__text">Мы являемся авторизованным сервисным центром по
-							ремонту техники Dell.
-							Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
-							производителя.
-						</p>
-						<p class="services__text">Мы успешно работаем с 1992 года и заслужили
-							репутацию надежного партнера,
-							что подтверждает
-							большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-							рекомендациям
-							и, в свою очередь, советуют нас родным и близким.</p>
-					</div>
-					<button class="services__read">Читать далее</button>
+			<div class="container">
+				<div class="services__menu">
+					<h1 class="title title_decor">Услуги и сервисы</h1>
+					<ul class="status">
+						<li class="status__item">
+							<p class="status__text">Оставить заявку</p>
+						</li>
+						<li class="status__item icon-center">
+							<a class="status__link" href="#!">
+								<img class="status__img" src="./img/icon/repair.svg" alt="Ремонт">
+							</a>
+						</li>
+						<li class="status__item">
+							<p class="status__text">Статус ремонта</p>
+						</li>
+						<li class="status__item icon-center">
+							<a class="status__link" href="#!">
+								<img class="status__img" src="./img/icon/checkstatus.svg" alt="Проверка статуса">
+							</a>
+						</li>
+					</ul>
 				</div>
-				<img class="services__decor" src="./img/services-decor.jpg" alt="">
+				<div class="services__menu-scroll">
+					<ul class="services__list ">
+						<li class="services__item">
+							<button class="services__button services__button_checked">Ремонтируемые устройства</button>
+						</li>
+						<li class="services__item">
+							<button class="services__button">Дополнительные услуги</button>
+						</li>
+						<li class="services__item">
+							<button class="services__button">Цены на услуги</button>
+						</li>
+						<li class="services__item">
+							<button class="services__button">Адреса сервисных центров</button>
+						</li>
+						<li class="services__item">
+							<button class="services__button">Специальные цены</button>
+						</li>
+						<li class="services__item">
+							<button class="services__button">Отзывы</button>
+						</li>
+					</ul>
+				</div>
+				<div class="services__wrapper">
+					<div class="services__column">
+						<div class="services__wrapper-text">
+							<p class="services__text">Мы являемся авторизованным сервисным центром по
+								ремонту техники Dell.
+								Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
+								производителя.
+							</p>
+							<p class="services__text">Мы успешно работаем с 1992 года и заслужили
+								репутацию надежного партнера,
+								что подтверждает
+								большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+								рекомендациям
+								и, в свою очередь, советуют нас родным и близким.</p>
+						</div>
+						<button class="services__read">Читать далее</button>
+					</div>
+					<img class="services__decor" src="./img/services-decor.jpg" alt="">
+				</div>
 			</div>
 		</section>
 	</main>
