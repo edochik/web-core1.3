@@ -1,0 +1,15 @@
+@import './normalize.css';
+@import './font-face.css';
+
+@import './style.css';
+@import './container.css';
+@import './header.css';
+@import './burger-menu.css';
+@import './logo.css';
+@import './menu.css';
+@import './contacts.css';
+@import './status.css';
+@import './title.css';
+@import './services.css';
+
+/* @import './.css'; */
