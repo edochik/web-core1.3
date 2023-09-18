@@ -1,3 +1,16 @@
 .burger-menu {
+	background-color: #FF3E79;
 	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 }
+
+.burger-menu__img {
+	width: 20px;
+	height: 20px;
+}
+

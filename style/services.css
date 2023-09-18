@@ -77,7 +77,7 @@
 	height: 176px;
 }
 
-.services__read {
+.services__btn-read {
 	position: relative;
 	margin-bottom: 16px;
 	padding-left: 32px;
@@ -89,7 +89,7 @@
 	border: none;
 }
 
-.services__read::before {
+.services__btn-read::before {
 	position: absolute;
 	content: '';
 	background: url('../img/icon/expand.svg') no-repeat center;

@@ -7,12 +7,25 @@
 
 .contacts__item {
 	cursor: pointer;
+	background-color: #FF3E79;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 }
 
 .contacts__link {
 	max-height: 20px;
 	text-decoration: none;
 	color: inherit;
+}
+
+.contacts__img {
+	background-color: #FF3E79;
+	width: 20px;
+	height: 20px;
 }
 
 @media(min-width: 768px) {
@@ -23,7 +36,7 @@
 		column-gap: 16px;
 	}
 
-	.contacts::after {
+	.contacts_decor-right::after {
 		position: absolute;
 		content: '';
 		width: 2px;

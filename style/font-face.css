@@ -7,11 +7,10 @@
 		url('../fonts/TTLakes-Regular.eot') format('eot');
 }
 
-
 @font-face {
 	font-family: 'TT Lakes';
 	font-weight: 500;
-	font-style: medium;
+	font-style: normal;
 	src: url('../fonts/TTLakes-Medium.woff') format('woff'),
 		url('../fonts/TTLakes-Medium.ttf') format('ttf'),
 		url('../fonts/TTLakes-Medium.eot') format('eot');
@@ -20,7 +19,7 @@
 @font-face {
 	font-family: 'TT Lakes';
 	font-weight: 700;
-	font-style: bold;
+	font-style: normal;
 	src: url('../fonts/TTLakes-Bold.woff') format('woff'),
 		url('../fonts/TTLakes-Bold.ttf') format('ttf'),
 		url('../fonts/TTLakes-Bold.eot') format('eot');
