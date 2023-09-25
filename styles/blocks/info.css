@@ -1,17 +1,12 @@
-.info__wrapper {
-	margin-bottom: 10px;
-	height: 90px;
-	overflow: hidden;
+.info__column {
+	margin-bottom: 16px;
 }
-
 
 .info__text {
-	margin: 0 0 26px 0;
+	margin: 0 0 10px 0;
 	padding: 0;
-}
-
-.info__text:last-child {
-	margin-bottom: 0;
+	height: 86px;
+	overflow: hidden;
 }
 
 .info__decor {
@@ -20,7 +15,6 @@
 
 .info__button {
 	position: relative;
-	margin-bottom: 16px;
 	padding-left: 32px;
 	font-size: 16px;
 	font-weight: 500;
@@ -74,10 +68,6 @@
 		column-gap: 48px;
 	}
 
-	.info__wrapper {
-		height: 130px;
-	}
-
 	.info__decor {
 		width: 290px;
 		height: 146px;
@@ -90,19 +80,24 @@
 		width: 360px;
 		height: 208px;
 	}
+
+	.info__text {
+		height: 106px;
+	}
 }
+
 
 @media(min-width: 1120px) {
 	.info {
 		column-gap: 36px;
 	}
 
-	.info__wrapper {
-		height: 170px;
-	}
-
 	.info__decor {
 		width: 531px;
 		height: 307px;
+	}
+
+	.info__text {
+		height: 165px;
 	}
 }
