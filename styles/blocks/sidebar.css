@@ -9,8 +9,19 @@
 }
 
 
-.sidebar>.header-mobile {
+.sidebar>.sidebar__header {
 	margin-bottom: 50px;
+}
+
+.sidebar__header{
+	display: flex;
+	align-items: center;
+	column-gap: 16px;
+}
+
+
+.sidebar__header>.search {
+	margin-left: auto;
 }
 
 .sidebar__footer {
