@@ -1,0 +1,25 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './style.css';
+
+
+@import '../blocks/container.css';
+@import '../blocks/header.css';
+@import '../blocks/burger-menu.css';
+@import '../blocks/logo.css';
+@import '../blocks/contacts.css';
+@import '../blocks/status.css';
+@import '../blocks/title.css';
+@import '../blocks/common.css';
+@import '../blocks/info.css';
+@import '../blocks/page-menu.css';
+
+/* mobile */
+@import '../blocks/search.css';
+@import '../blocks/sidebar.css';
+@import '../blocks/header-mobile.css';
+@import '../blocks/menu.css';
+@import '../blocks/mail.css';
+@import '../blocks/phone.css';
+@import '../blocks/language.css';
+

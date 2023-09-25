@@ -6,6 +6,7 @@
 }
 
 .contacts__item {
+	position: relative;
 	cursor: pointer;
 	background-color: #FF3E79;
 	width: 40px;
@@ -14,6 +15,14 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
+	transition: background-color .3s ease-in;
+}
+.contacts__item:hover{
+	background-color:rgba(255, 62, 121, 0.7);
+}
+
+.contacts__item:active{
+	top: 1px;
 }
 
 .contacts__link {
@@ -23,7 +32,6 @@
 }
 
 .contacts__img {
-	background-color: #FF3E79;
 	width: 20px;
 	height: 20px;
 }

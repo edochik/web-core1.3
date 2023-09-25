@@ -1,0 +1,20 @@
+.search {
+	background-color: #FF3E79;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: background-color .3s ease-in;
+}
+
+.search:hover {
+	background-color: rgba(255, 62, 121, 0.7);
+}
+
+.search__img {
+	width: 20px;
+	height: 20px;
+}

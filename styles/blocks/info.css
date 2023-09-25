@@ -1,0 +1,108 @@
+.info__wrapper {
+	margin-bottom: 10px;
+	height: 90px;
+	overflow: hidden;
+}
+
+
+.info__text {
+	margin: 0 0 26px 0;
+	padding: 0;
+}
+
+.info__text:last-child {
+	margin-bottom: 0;
+}
+
+.info__decor {
+	width: 100%;
+}
+
+.info__button {
+	position: relative;
+	margin-bottom: 16px;
+	padding-left: 32px;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: -0.2px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.info__button::before {
+	position: absolute;
+	content: '';
+	background: url('../../images/icon-expand.svg') no-repeat center;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.info__button::after {
+	position: absolute;
+	content: '';
+	width: 75%;
+	height: 2px;
+	background-color: #000000;
+	left: 30px;
+	bottom: 0;
+	opacity: 0;
+	transition: opacity .3s ease-in;
+}
+
+.info__button:hover::after {
+	opacity: 1;
+}
+
+.info__button:active {
+	top: 1px;
+}
+
+@media(min-width: 336px) {
+	.info__decor {
+		display: block;
+		margin: 0 auto
+	}
+}
+
+@media(min-width: 500px) {
+	.info {
+		display: flex;
+		column-gap: 48px;
+	}
+
+	.info-text__wrapper {
+		height: 130px;
+	}
+
+	.info__decor {
+		width: 290px;
+		height: 146px;
+		border-radius: 5px;
+	}
+}
+
+@media(min-width: 768px) {
+	.info__decor {
+		width: 360px;
+		height: 208px;
+	}
+}
+
+@media(min-width: 1120px) {
+	.info {
+		column-gap: 36px;
+	}
+
+	.info-text__wrapper {
+		height: 170px;
+	}
+
+	.info__decor {
+		width: 531px;
+		height: 307px;
+	}
+}

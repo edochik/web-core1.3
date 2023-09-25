@@ -4,122 +4,115 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Services</title>
-	<link href="./style/index.css" rel="stylesheet">
+	<title>common</title>
+	<link href="./styles/general/index.css" rel="stylesheet">
 </head>
 
-<body>
-	<header class="header container">
+<body class="container">
+	<header class="header">
 		<div class="burger-menu">
-			<img class="burger-menu__img" src="./img/icon/burger-menu.svg" alt="Меню бургер">
+			<img class="burger-menu__img" src="./images/icon-burger-menu.svg" alt="Меню бургер">
 		</div>
-		<div class="logo logo_decor-left logo_decor-right header__logo">
-			<img class="logo__img" src="./img/logo.svg" alt="Логотип компании">
-		</div>
-		<nav class="menu header__menu">
+		<img class="logo" src="./images/logo.svg" alt="Логотип компании">
+		<nav class="header__menu">
 			<ul class="contacts contacts_decor-right">
 				<li class="contacts__item">
 					<a class="contacts__link " href="#!">
-						<img class="contacts__img" src="./img/icon/call.svg" alt="Звонок">
+						<img class="contacts__img" src="./images/icon-call.svg" alt="Звонок">
 					</a>
 				</li>
 				<li class="contacts__item">
 					<a class="contacts__link " href="#!">
-						<img class="contacts__img" src="./img/icon/chat.svg" alt="Чат">
+						<img class="contacts__img" src="./images/icon-chat.svg" alt="Чат">
 					</a>
 				</li>
 				<li class="contacts__item">
 					<a class="contacts__link " href="#!">
-						<img class="contacts__img" src="./img/icon/profile.svg" alt="Профиль">
+						<img class="contacts__img" src="./images/icon-profile.svg" alt="Профиль">
 					</a>
 				</li>
 			</ul>
 			<ul class="status">
 				<li class="status__item">
-					<p class="status__text">Оставить заявку</p>
-				</li>
-				<li class="status__item">
 					<a class="status__link" href="#!">
-						<img class="status__img" src="./img/icon/repair.svg" alt="Ремонт">
+						<span class="status__text">Оставить заявку</span>
+						<div class="status__img-wrapper">
+							<img class="status__img" src="./images/icon-repair.svg" alt="Ремонт">
+						</div>
 					</a>
 				</li>
 				<li class="status__item">
-					<p class="status__text">Статус ремонта</p>
-				</li>
-				<li class="status__item">
 					<a class="status__link" href="#!">
-						<img class="status__img" src="./img/icon/checkstatus.svg" alt="Проверка статуса">
+						<span class="status__text">Статус ремонта</span>
+						<div class="status__img-wrapper">
+							<img class="status__img" src="./images/icon-checkstatus.svg" alt="Проверка статуса">
+						</div>
 					</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section class="services">
-			<div class="container">
-				<div class="services__menu">
-					<h1 class="title title_decor">Услуги и сервисы</h1>
-					<ul class="status">
-						<li class="status__item">
-							<p class="status__text">Оставить заявку</p>
-						</li>
-						<li class="status__item">
-							<a class="status__link" href="#!">
-								<img class="status__img" src="./img/icon/repair.svg" alt="Ремонт">
-							</a>
-						</li>
-						<li class="status__item">
-							<p class="status__text">Статус ремонта</p>
-						</li>
-						<li class="status__item">
-							<a class="status__link" href="#!">
-								<img class="status__img" src="./img/icon/checkstatus.svg" alt="Проверка статуса">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="services__menu-scroll">
-					<ul class="services__list ">
-						<li class="services__item">
-							<button class="services__button services__button_checked">Ремонтируемые устройства</button>
-						</li>
-						<li class="services__item">
-							<button class="services__button">Дополнительные услуги</button>
-						</li>
-						<li class="services__item">
-							<button class="services__button">Цены на услуги</button>
-						</li>
-						<li class="services__item">
-							<button class="services__button">Адреса сервисных центров</button>
-						</li>
-						<li class="services__item">
-							<button class="services__button">Специальные цены</button>
-						</li>
-						<li class="services__item">
-							<button class="services__button">Отзывы</button>
-						</li>
-					</ul>
-				</div>
-				<div class="services__wrapper">
-					<div class="services__column">
-						<div class="services__wrapper-text">
-							<p class="services__text">Мы являемся авторизованным сервисным центром по
-								ремонту техники Dell.
-								Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
-								производителя.
-							</p>
-							<p class="services__text">Мы успешно работаем с 1992 года и заслужили
-								репутацию надежного партнера,
-								что подтверждает
-								большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-								рекомендациям
-								и, в свою очередь, советуют нас родным и близким.</p>
-						</div>
-						<button class="services__btn-read">Читать далее</button>
-					</div>
-					<img class="services__decor" src="./img/services-decor.jpg" alt="">
-				</div>
+		<section class="common">
+			<div class="common__wrapper">
+				<h1 class="title title_decor">Услуги и сервисы</h1>
+				<ul class="status">
+					<li class="status__item">
+						<a class="status__link" href="#!">
+							<span class="status__text">Оставить заявку</span>
+							<div class="status__img-wrapper">
+								<img class="status__img" src="./images/icon-repair.svg" alt="Ремонт">
+							</div>
+						</a>
+					</li>
+					<li class="status__item">
+						<a class="status__link" href="#!">
+							<span class="status__text">Статус ремонта</span>
+							<div class="status__img-wrapper">
+								<img class="status__img" src="./images/icon-checkstatus.svg" alt="Проверка статуса">
+							</div>
+						</a>
+					</li>
+				</ul>
 			</div>
+			<nav class="page-menu">
+				<ul class="page-menu__list">
+					<li class="page-menu__item">
+						<button class="page-menu__button page-menu__button--checked">Ремонтируемые устройства</button>
+					</li>
+					<li class="page-menu__item">
+						<button class="page-menu__button">Дополнительные услуги</button>
+					</li>
+					<li class="page-menu__item">
+						<button class="page-menu__button">Цены на услуги</button>
+					</li>
+					<li class="page-menu__item">
+						<button class="page-menu__button">Адреса сервисных центров</button>
+					</li>
+					<li class="page-menu__item">
+						<button class="page-menu__button">Специальные цены</button>
+					</li>
+					<li class="page-menu__item">
+						<button class="page-menu__button">Отзывы</button>
+					</li>
+				</ul>
+			</nav>
+			<section class="info">
+				<div class="info__column">
+					<div class="info__wrapper">
+						<p class="info__text">Мы являемся авторизованным сервисным центром по
+							ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
+							производителя.
+						</p>
+						<p class="info__text">Мы успешно работаем с 1992 года и заслужили
+							репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем,
+							что к нам обращаются по
+							рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+					</div>
+					<button class="info__button">Читать далее</button>
+				</div>
+				<img class="info__decor" src="./images/common-decor.jpg" alt="">
+			</section>
 		</section>
 	</main>
 </body>

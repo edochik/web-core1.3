@@ -1,0 +1,32 @@
+.sidebar {
+	width: 320px;
+	padding: 24px 24px 32px 24px;
+	box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20);
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+
+.sidebar>.header-mobile {
+	margin-bottom: 50px;
+}
+
+.sidebar__footer {
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar__footer>.contacts {
+	margin-bottom: 16px;
+}
+
+.sidebar__footer>.mail {
+	margin-bottom: 12px;
+}
+
+.sidebar__footer>.phone {
+	margin-bottom: 40px;
+}
