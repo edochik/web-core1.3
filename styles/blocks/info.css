@@ -68,13 +68,13 @@
 	}
 }
 
-@media(min-width: 500px) {
+@media(min-width: 550px) {
 	.info {
 		display: flex;
 		column-gap: 48px;
 	}
 
-	.info-text__wrapper {
+	.info__wrapper {
 		height: 130px;
 	}
 
@@ -97,7 +97,7 @@
 		column-gap: 36px;
 	}
 
-	.info-text__wrapper {
+	.info__wrapper {
 		height: 170px;
 	}
 

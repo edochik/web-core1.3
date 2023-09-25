@@ -20,6 +20,9 @@
 }
 
 .sidebar__footer>.contacts {
+	display: block;
+	display: flex;
+	column-gap: 16px;
 	margin-bottom: 16px;
 }
 
