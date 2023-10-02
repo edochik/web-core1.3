@@ -1,9 +1,13 @@
 @import './normalize.css';
+@import '../libs/swiper-bundle.min.css';
+@import '../blocks/swiper.css';
 @import './fonts.css';
 @import './style.css';
 
-
 @import '../blocks/container.css';
+@import '../blocks/headline.css';
+
+/* common */
 @import '../blocks/header.css';
 @import '../blocks/burger-menu.css';
 @import '../blocks/logo.css';
@@ -22,3 +26,5 @@
 @import '../blocks/phone.css';
 @import '../blocks/language.css';
 
+/* brands */
+@import '../blocks/brands.css';

@@ -92,6 +92,10 @@
 		column-gap: 36px;
 	}
 
+	.info__column {
+		margin-bottom: 0;
+	}
+
 	.info__decor {
 		width: 531px;
 		height: 307px;
